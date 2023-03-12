@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: black
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: black
     text-shadow: none;
 }
 
@@ -42,7 +42,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid black
     margin: 1em 0;
     padding: 0;
 }
@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: darkgrey;
   height: 100%;
 }
 
@@ -106,13 +106,16 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  color: #fff;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,12 +123,16 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   height: 300px;
   width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
+}
+
+.div-1 {
+    padding-top: 140px;
 }
 
 
